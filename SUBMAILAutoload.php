@@ -11,7 +11,8 @@
     
     function SUBMAILAutoload($classname){
         $filename = dirname(__FILE__).DIRECTORY_SEPARATOR.'lib/'.strtolower($classname).'.php';
-        if (is_readable($filename)) {
+
+        if (!class_exists($classname,false)&&is_readable($filename)) {
             require $filename;
         }
     }
