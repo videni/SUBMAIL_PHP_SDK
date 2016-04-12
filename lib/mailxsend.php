@@ -1,5 +1,5 @@
 <?PHP
-    require 'mail.php';
+    require_once('mail.php');
     class MAILXsend{
 
         protected $appid='';

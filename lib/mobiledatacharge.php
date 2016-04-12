@@ -1,5 +1,5 @@
 <?PHP
-    require 'voice.php';
+    require_once('voice.php');
     class mobiledatacharge{
         
         protected $appid='';

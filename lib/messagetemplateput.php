@@ -1,5 +1,5 @@
 <?PHP
-    require 'message.php';
+    require_once('message.php');
     class MESSAGETemplatePUT{
         
         protected $appid='';

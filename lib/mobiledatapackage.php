@@ -1,5 +1,5 @@
 <?PHP
-    require 'mobiledata.php';
+    require_once('mobiledata.php');
     class mobiledatapackage{
         
         protected $appid='';
